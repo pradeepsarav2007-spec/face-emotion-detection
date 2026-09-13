@@ -1,0 +1,33 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Emotion Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>😊 Face Emotion Detection</h1>
+        <p>Allow camera access to detect your facial emotion.</p>
+
+        <div class="video-container">
+            <video id="video" width="720" height="560" autoplay muted></video>
+        </div>
+
+        <div id="emotion">
+            Emotion: Waiting...
+        </div>
+
+        <button id="startBtn">Start Camera</button>
+    </div>
+
+    <!-- Face API Library -->
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
